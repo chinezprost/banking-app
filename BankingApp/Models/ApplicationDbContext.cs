@@ -11,6 +11,7 @@ namespace BankingApp.Models
 
 
         public DbSet<User> User { get; set; }
+        public DbSet<Changelog> Changelog { get; set; }
     }
     
     

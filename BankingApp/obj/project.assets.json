@@ -6309,11 +6309,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\plays\\RiderProjects\\BankingApp\\BankingApp\\BankingApp.csproj",
+      "projectUniqueName": "D:\\banking-app\\BankingApp\\BankingApp.csproj",
       "projectName": "BankingApp",
-      "projectPath": "C:\\Users\\plays\\RiderProjects\\BankingApp\\BankingApp\\BankingApp.csproj",
+      "projectPath": "D:\\banking-app\\BankingApp\\BankingApp.csproj",
       "packagesPath": "C:\\Users\\plays\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\plays\\RiderProjects\\BankingApp\\BankingApp\\obj\\",
+      "outputPath": "D:\\banking-app\\BankingApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\plays\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6383,6 +6383,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.16, 5.0.16]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -6391,7 +6397,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

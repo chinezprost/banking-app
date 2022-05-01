@@ -8,9 +8,10 @@ namespace BankingApp.Models
         public int Id { get; set; }
         
         [Required]
-        public float Money { get; set; }
+        public string Username { get; set; }
         
-        public bool IsDeveloper { get; set; }
+        [Required]
+        public string Password { get; set; }
         
     }
 }

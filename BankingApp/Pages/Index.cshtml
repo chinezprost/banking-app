@@ -5,6 +5,21 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Leaggbout <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div class ="mx-auto m-5" style="color:white">România Roleplay</div>
+    <div class ="box"></div>
+    
+    <form method="post" class = "" style="width:30%;position: relative; margin-left: 35%">
+        <!--- Username Input --->
+        <div class="form-outline mb-4">
+            <input asp-for="usernameInput" type="username" id="usernameInput" class="form-control text-center" placeholder="Username">
+        </div>
+        <!--- Password Input --->
+        <div class="form-outline mb-4">
+            <input asp-for="passwordInput" type="password" id="passwordInput" class="form-control text-center" placeholder="Password"/>
+        </div>
+        
+        <!--- Submit Button --->
+        <button type ="submit" value ="Login" class="btn btn-primary btn-block mb-4 form-control">Log in</button>
+        
+    </form>
 </div>

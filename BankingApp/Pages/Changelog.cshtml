@@ -1,0 +1,49 @@
+﻿@page
+@using Newtonsoft.Json
+@model BankingApp.Pages.Changelog
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Changelog</title>
+</head>
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css" integrity="sha256-nwNjrH7J9zS/Ti4twtWX7OsC5QdQHCIKTv5cLMsGo68=" crossorigin="anonymous" />
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10 col-12">
+          @foreach (var changelog in Model.changelogs)
+          {
+              
+              <h5 class="mt-4"> <label class="p-2 bg-light shadow rounded text-success"> @changelog.Version </label></h5>
+              foreach (var element in JsonConvert.DeserializeObject<List<string>>(changelog.ChangelogContent))
+              {
+                  <ul class="list-unstyled mt-3">
+                      <li class="text-muted ml-3"><i class="mdi mdi-circle-medium mr-2"></i>@element</li>
+                  </ul>
+              }
+          }
+
+            <div class="mt-4">
+            </div>
+        </div><!--end col-->
+    </div><!--end row-->
+</div>
+</body>
+
+<style>
+    
+    
+    body{margin-top:20px;}
+    .text-muted {
+        color: #8492a6 !important;
+    }
+    .container {
+        color: white;
+    }
+    
+</style>
+</html>

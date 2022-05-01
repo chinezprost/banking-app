@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UMwW8ridfiKPe+Iui3Gh7XnSDC+WrN7haLbZLeP63Sk9nRFTANw7m+rSReC1YKuGrSBPboXxZMf+GkE/Kqj03A==",
+  "dgSpecHash": "wIKxdoPI988HA5dB+caTlqBfVdXJXob5HvhLdBbcRFwz3clXoxRFnHgfRvWCjo3mSWyfi/YrtSFCUrv9yv2hJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\plays\\RiderProjects\\BankingApp\\BankingApp\\BankingApp.csproj",
+  "projectFilePath": "D:\\banking-app\\BankingApp\\BankingApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\plays\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\plays\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
@@ -116,7 +116,8 @@
     "C:\\Users\\plays\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\plays\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\plays\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\plays\\.nuget\\packages\\westwind.aspnetcore.livereload\\0.3.6\\westwind.aspnetcore.livereload.0.3.6.nupkg.sha512"
+    "C:\\Users\\plays\\.nuget\\packages\\westwind.aspnetcore.livereload\\0.3.6\\westwind.aspnetcore.livereload.0.3.6.nupkg.sha512",
+    "C:\\Users\\plays\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512"
   ],
   "logs": []
 }
