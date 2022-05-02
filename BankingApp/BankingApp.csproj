@@ -17,4 +17,8 @@
       <PackageReference Include="Westwind.AspNetCore.LiveReload" Version="0.3.6" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Pages\MainPage\SendMoney\SendMoney.cshtml" />
+    </ItemGroup>
+
 </Project>

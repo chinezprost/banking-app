@@ -10,6 +10,8 @@ using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.Extensions.Logging;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace BankingApp.Pages
 {
@@ -38,10 +40,17 @@ namespace BankingApp.Pages
 
         public async Task<IActionResult> OnPost()
         {
-            var foundUser = await _db.User.FirstOrDefaultAsync(x => x.Username == usernameInput && x.Password == passwordInput);
+            var data = Encoding.UTF8.GetBytes(passwordInput);
+            using (SHA512 shaM = new SHA512Managed())
+            {
+                var hash = shaM.ComputeHash(data);
+                passwordInput = BitConverter.ToString(hash).Replace("-", "");
+                Console.WriteLine(passwordInput);
+            }
+            var foundUser = await _db.Users.FirstOrDefaultAsync(x => x.Username == usernameInput && x.Password == passwordInput);
             if (foundUser != null) {
                 Console.WriteLine("found");
-                return RedirectToPage("Changelog");
+                return RedirectToPage("MainPage/Index", "MyAccount", new {username = usernameInput});
             }
             return Page();
         }

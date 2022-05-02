@@ -29,7 +29,7 @@ namespace BankingApp.Pages
 
         public void OnGet()
         {
-            changelogs = _db.Changelog.ToList();
+            changelogs = _db.Changelogs.ToList();
             foreach (var changelog in changelogs)
             {
                 Console.WriteLine(changelog.ChangelogContent.ToString());

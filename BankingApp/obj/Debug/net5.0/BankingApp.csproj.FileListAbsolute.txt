@@ -793,3 +793,6 @@ D:\banking-app\BankingApp\obj\Debug\net5.0\BankingApp.pdb
 D:\banking-app\BankingApp\obj\Debug\net5.0\BankingApp.genruntimeconfig.cache
 D:\banking-app\BankingApp\obj\Debug\net5.0\ref\BankingApp.dll
 D:\banking-app\bankingapp\obj\Debug\net5.0\Razor\Pages\Changelog.cshtml.g.cs
+C:\Users\plays\RiderProjects\BankingApp\BankingApp\obj\Debug\net5.0\Razor\Pages\Changelog.cshtml.g.cs
+C:\Users\plays\RiderProjects\BankingApp\BankingApp\obj\Debug\net5.0\Razor\Pages\MainPage\Index.cshtml.g.cs
+C:\Users\plays\RiderProjects\BankingApp\BankingApp\obj\Debug\net5.0\Razor\Pages\MainPage\SendMoney\Index.cshtml.g.cs
